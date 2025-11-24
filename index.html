@@ -10,7 +10,6 @@
       background-color: #f6f9fc;
       color: #0b2434;
       margin: 20px;
-      padding: 0;
     }
     header {
       background-color: #062f4f;
@@ -18,21 +17,13 @@
       padding: 15px;
       border-radius: 5px;
     }
-    h1 {
-      color: #ffd166;
-    }
-    h2 {
-      color: #0a9396;
-    }
-    nav a {
-      color: white;
-      margin-right: 12px;
-      text-decoration: none;
-    }
+    h1 { color: #ffd166; }
+    h2 { color: #0a9396; }
     img {
       max-width: 100%;
       height: auto;
       border-radius: 6px;
+      margin-top: 10px;
     }
     table {
       width: 100%;
@@ -44,88 +35,81 @@
       padding: 8px;
       text-align: left;
     }
-    th {
-      background-color: #f0f7fb;
-    }
-    .internal {
-      color: #0a9396;
-      text-decoration: underline;
-    }
+    th { background-color: #f0f7fb; }
   </style>
 </head>
+
 <body>
+
   <header>
     <h1>Investigación: Ciberseguridade</h1>
-    <nav>
-      <a href="#introducion">Introdución</a>
-      <a href="#ataques">Ataques</a>
-      <a href="#proteccion">Protección</a>
-      <a href="#recursos">Recursos</a>
-    </nav>
   </header>
 
-  <section id="introducion">
+  <section>
     <h2>Que é a ciberseguridade?</h2>
-    <p>A ciberseguridade abarca prácticas, tecnologías e procedementos para protexer equipos, redes, programas e datos fronte a accesos ou ataques non autorizados.</p>
-    <p>Para máis información, pode consultar a páxina de INCIBE: <a class="internal" href="https://www.incibe.es/menores/" target="_blank" rel="noopener">INCIBE – Menores / Internet segura</a>.</p>
+    <p>A ciberseguridade inclúe prácticas e tecnoloxías para protexer datos e sistemas fronte a ataques ou accesos non autorizados.</p>
+    <p>Para máis información, visita <a href="https://www.incibe.es/menores/" target="_blank">INCIBE – Internet Segura</a>.</p>
   </section>
 
-  <section id="ataques">
+  <section>
     <h2>Clases de ataques máis comúns</h2>
-    <p>Algúns dos ataques máis frecuentes nesta área son:</p>
     <ul>
-      <li>Phishing: mensaxes que procuran roubar credenciais.</li>
-      <li>Ransomware: malware que cifra ficheiros e esixe rescate.</li>
-      <li>Malware (virus, troyanos, worms).</li>
-      <li>Vulnerabilidades web: inxeccións SQL, XSS, CSRF.</li>
-      <li>Enxeñería social: manipulación humana para obter información.</li>
+      <li>Phishing: enganos por correo electrónico.</li>
+      <li>Ransomware: cifrado de datos e petición de rescate.</li>
+      <li>Malware e virus que danan o sistema.</li>
+      <li>Inxeccións web (SQL, XSS, etc.).</li>
+      <li>Enxeñería social: manipulación das persoas.</li>
     </ul>
-    <p>Outra forma de ver os vectores principais:</p>
-    <ol>
-      <li>Correos ou mensaxes fraudulentas.</li>
-      <li>Exploit de vulnerabilidades en software ou servizos.</li>
-      <li>Usar contrasinais débeis ou roubados.</li>
-    </ol>
-    <img src="https://st3.depositphotos.com/11486624/35347/i/450/depositphotos_353473896-stock-illustration-cyber-security-computer-protection-digital.jpg">
-    <img src="https://msftstories.thesourcemediaassets.com/sites/41/2015/02/Generic_security_data-protection_11022015.jpg">
+
+    <!-- 1ª imaxe local -->
+    <img src="img1.svg" alt="">
   </section>
 
-  <section id="proteccion">
+  <section>
     <h2>Mecanismos de protección e defensa</h2>
-    <p>Para protexerse, é importante adoptar tanto medidas técnicas como procedimentais e formar ás persoas.</p>
     <ul>
-      <li>Actualización e parcheado de software.</li>
-      <li>Antivirus/antimalware e detección de intrusión.</li>
-      <li>Autenticación forte (2FA/MFA) e xestión de contrasinais.</li>
-      <li>Copia de seguridade (backups) e plan de recuperación.</li>
-      <li>Formación en enxeñería social e boas prácticas de seguridade.</li>
+      <li>Actualizar e parchear software regularmente.</li>
+      <li>Usar antivirus e sistemas de detección de intrusión.</li>
+      <li>Empregar contrasinais fortes e autenticación múltiple.</li>
+      <li>Facer copias de seguridade.</li>
+      <li>Formarse en boas prácticas dixitais.</li>
     </ul>
-    <img src="https://previews.123rf.com/images/sdecoret/sdecoret1711/sdecoret171101469/90515986-cyber-security-and-connections-over-the-globe-3d-rendering.jpg">
+
+    <!-- 2ª imaxe local -->
+    <img src="img2.jpg" alt="">
   </section>
 
-  <section id="recursos">
+  <section>
     <h2>Recursos e lectura</h2>
-    <p>Fontes recomendadas para ampliar o estudo:</p>
     <ul>
-      <li><a href="https://www.incibe.es/ciudadania/tematicas/virus-amenazas" target="_blank" rel="noopener">INCIBE – Virus e outras ameazas</a></li>
-      <li><a href="https://owasp.org/" target="_blank" rel="noopener">OWASP – Guías de seguridade web</a></li>
-      <li><a href="https://www.enisa.europa.eu/" target="_blank" rel="noopener">ENISA – Axencia da UE de Ciberseguridade</a></li>
+      <li><a href="https://www.incibe.es/ciudadania/tematicas/virus-amenazas" target="_blank">INCIBE – Virus e ameazas</a></li>
+      <li><a href="https://owasp.org/" target="_blank">OWASP – Seguridade web</a></li>
+      <li><a href="https://www.enisa.europa.eu/" target="_blank">ENISA – Axencia Europea de Ciberseguridade</a></li>
     </ul>
+
     <h3>Táboa: resumo ataques vs medidas</h3>
     <table>
       <thead>
-        <tr><th>Ataque</th><th>Modo de actuación</th><th>Medidas de defensa</th></tr>
+        <tr>
+          <th>Ataque</th>
+          <th>Modo de actuación</th>
+          <th>Medidas de defensa</th>
+        </tr>
       </thead>
       <tbody>
-        <tr><td>Phishing</td><td>Mensaxes enganosas para roubar credenciais</td><td>Filtrado de correo, 2FA, formación de usuarios</td></tr>
-        <tr><td>Ransomware</td><td>Cifrado de ficheiros + extorsión</td><td>Backups, parches, antimalware</td></tr>
-        <tr><td>XSS / Inxección</td><td>Código inserido en aplicacións web</td><td>Validación/escapado, WAF, revisión de código</td></tr>
+        <tr><td>Phishing</td><td>Mensaxes falsas para roubar datos</td><td>Filtrado de correo e formación</td></tr>
+        <tr><td>Ransomware</td><td>Cifrado de ficheiros</td><td>Backups e actualizacións</td></tr>
+        <tr><td>XSS</td><td>Código malicioso en webs</td><td>Validación de entradas e revisión</td></tr>
       </tbody>
     </table>
+
+    <!-- 3ª imaxe local -->
+    <img src="img3.svg" alt="">
   </section>
 
   <footer>
     <p>Creado como parte dunha actividade de investigación sobre ciberseguridade.</p>
   </footer>
+
 </body>
 </html>
