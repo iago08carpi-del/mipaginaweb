@@ -19,6 +19,11 @@
     }
     h1 { color: #ffd166; }
     h2 { color: #0a9396; }
+    nav a {
+      color: white;
+      margin-right: 12px;
+      text-decoration: none;
+    }
     img {
       max-width: 100%;
       height: auto;
@@ -36,17 +41,30 @@
       text-align: left;
     }
     th { background-color: #f0f7fb; }
+    .internal {
+      color: #0a9396;
+      text-decoration: underline;
+    }
   </style>
 </head>
-
 <body>
-  <section>
+  <header>
+    <h1>Investigación: Ciberseguridade</h1>
+    <nav>
+      <a href="#introducion">Introdución</a>
+      <a href="#ataques">Ataques</a>
+      <a href="#proteccion">Protección</a>
+      <a href="#recursos">Recursos</a>
+    </nav>
+  </header>
+
+  <section id="introducion">
     <h2>Que é a ciberseguridade?</h2>
     <p>A ciberseguridade inclúe prácticas e tecnoloxías para protexer datos e sistemas fronte a ataques ou accesos non autorizados.</p>
-    <p>Para máis información, visita <a href="https://www.incibe.es/menores/" target="_blank">INCIBE – Internet Segura</a>.</p>
+    <p>Para máis información, visita <a class="internal" href="https://www.incibe.es/menores/" target="_blank" rel="noopener">INCIBE – Internet Segura</a>.</p>
   </section>
 
-  <section>
+  <section id="ataques">
     <h2>Clases de ataques máis comúns</h2>
     <ul>
       <li>Phishing: enganos por correo electrónico.</li>
@@ -56,11 +74,11 @@
       <li>Enxeñería social: manipulación das persoas.</li>
     </ul>
 
-    <!-- 1ª imaxe local -->
+    <!-- 1ª imaxe -->
     <img src="img1.svg" alt="">
   </section>
 
-  <section>
+  <section id="proteccion">
     <h2>Mecanismos de protección e defensa</h2>
     <ul>
       <li>Actualizar e parchear software regularmente.</li>
@@ -70,16 +88,16 @@
       <li>Formarse en boas prácticas dixitais.</li>
     </ul>
 
-    <!-- 2ª imaxe local -->
+    <!-- 2ª imaxe -->
     <img src="img2.jpg" alt="">
   </section>
 
-  <section>
+  <section id="recursos">
     <h2>Recursos e lectura</h2>
     <ul>
-      <li><a href="https://www.incibe.es/ciudadania/tematicas/virus-amenazas" target="_blank">INCIBE – Virus e ameazas</a></li>
-      <li><a href="https://owasp.org/" target="_blank">OWASP – Seguridade web</a></li>
-      <li><a href="https://www.enisa.europa.eu/" target="_blank">ENISA – Axencia Europea de Ciberseguridade</a></li>
+      <li><a href="https://www.incibe.es/ciudadania/tematicas/virus-amenazas" target="_blank" rel="noopener">INCIBE – Virus e ameazas</a></li>
+      <li><a href="https://owasp.org/" target="_blank" rel="noopener">OWASP – Seguridade web</a></li>
+      <li><a href="https://www.enisa.europa.eu/" target="_blank" rel="noopener">ENISA – Axencia Europea de Ciberseguridade</a></li>
     </ul>
 
     <h3>Táboa: resumo ataques vs medidas</h3>
@@ -98,13 +116,12 @@
       </tbody>
     </table>
 
-    <!-- 3ª imaxe local -->
+    <!-- 3ª imaxe -->
     <img src="img3.svg" alt="">
   </section>
 
   <footer>
     <p>Creado como parte dunha actividade de investigación sobre ciberseguridade.</p>
   </footer>
-
 </body>
 </html>
